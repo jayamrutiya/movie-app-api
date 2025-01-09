@@ -1,0 +1,40 @@
+# Yarn
+.yarn/cache
+.yarn/unplugged
+.yarn/build-state.yml
+.yarn/install-state.gz
+.pnp.*
+
+# NPM
+node_modules/
+
+!node_modules/@prisma/client
+package-lock.json
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Depedency directories
+node_modules/
+
+# jest coverage output
+coverage
+
+# dotenv configuration files
+.env
+
+# OSX
+.DS_Store
+*.swp
+
+#IntelliJ
+.idea/
+reports/
+
+#VSCode
+.vscode
+
+**/.terraform

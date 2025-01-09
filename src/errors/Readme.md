@@ -1,0 +1,1 @@
+This directory contains the custom errors that are specific to the project.
